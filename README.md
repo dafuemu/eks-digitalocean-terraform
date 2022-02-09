@@ -19,7 +19,7 @@ SPACES_SECRET_KEY=xxx
 
 Create the cluster
 ```
-tf init \
+terraform init \
  -backend-config="access_key=$SPACES_ACCESS_TOKEN" \
  -backend-config="secret_key=$SPACES_SECRET_KEY"
 ```
@@ -28,10 +28,12 @@ tf init \
 tf plan
 ```
 
+```
+terraform apply
+```
 
 Authenticate using your token to get credentials store in kubeconfig:
 
-First:
 ```
 doctl auth init (you will be asked to introduced your token)
 touch kubeconfig
