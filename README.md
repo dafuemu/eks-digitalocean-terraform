@@ -25,7 +25,6 @@ terraform apply
 
 Authenticate using your token to get credentials store in kubeconfig:
 
-First:
 ```
 doctl auth init (you will be asked to introduced your token)
 touch kubeconfig
