@@ -1,4 +1,4 @@
-## Initial setup
+## Initial setup on a local environment
 Export de env variables:
 
 ```
